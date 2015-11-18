@@ -1,0 +1,61 @@
+
+body {
+    /* background-image: url('../images/shopping-list.jpg'); */
+    background-size: cover;
+    margin:auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    width: 940px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#container {
+    margin: 5em auto;
+    width: 600px;
+    border-radius: 35px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+}
+
+#instructions {
+    margin-bottom: 15px;
+}
+
+#instructions li { 
+    font-style: italic;
+}
+
+#list {
+  margin-top: 10px;
+  width: 400px;
+}
+
+#newItemTextBox {
+}
+
+
+#list li {
+    line-height: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+}   
