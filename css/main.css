@@ -48,12 +48,28 @@ footer {
   width: 400px;
 }
 
-#newItemTextBox {
+
+#list a {
+    float: right;
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 3px;
 }
 
+#list input[type="checkbox"] {
+    margin: 0px  10px;
+}
 
 #list li {
-    line-height: 20px;
+    line-height: 2;
+    border: 1px  yellow dotted;
+    background-color: yellow;
+}
+
+#list li:hover {
+    cursor: pointer;
 }
 
 .completed {
